@@ -1,0 +1,24 @@
+#Sitemap: https://femomusic.com/sitemap.xml
+#Sitemap: https://femomusic.com/news-sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: *
+Disallow: /admin/
+
+User-agent: *
+Disallow: /login/
+
+#Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+#Yandex
+User-agent: Yandex
+Disallow: /
+
+#SeznamBot
+User-agent: SeznamBot
+Disallow: /
